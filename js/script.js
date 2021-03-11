@@ -3,7 +3,7 @@ function copyToClipboard() {
     // コピー対象をJavaScript上で変数として定義する
     var copyTarget = document.getElementById("email");
 
-    copyTarget.style.visibility = 'visible';
+    // copyTarget.style.visibility = 'visible';
 
     // コピー対象のテキストを選択する
     copyTarget.select();
@@ -15,5 +15,5 @@ function copyToClipboard() {
     // コピーをお知らせする
     alert("コピーしました:" + copyTarget.value);
 
-    copyTarget.style.visibility = 'hidden';
+    // copyTarget.style.visibility = 'hidden';
 }
