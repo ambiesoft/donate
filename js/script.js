@@ -10,7 +10,7 @@ function copyToClipboard() {
     copyTarget.setSelectionRange(0, 99999); /* For mobile devices */
 
     // 選択しているテキストをクリップボードにコピーする
-    document.execCommand("Copy");
+    document.execCommand("copy");
 
     // コピーをお知らせする
     alert("コピーしました:" + copyTarget.value);
