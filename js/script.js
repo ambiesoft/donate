@@ -1,7 +1,7 @@
 // https://www.marorika.com/entry/copy-to-clipboard
 
 function debugAlert(s) {
-  alert(s);
+  // alert(s);
 }
 
 function copyToClipboard() {
