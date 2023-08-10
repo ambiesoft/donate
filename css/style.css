@@ -6,3 +6,19 @@ body {
 #email {
     /* visibility: hidden; */
 }
+
+.syokai {
+    background-color: gainsboro;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+input {
+    width: 25ch;
+}
